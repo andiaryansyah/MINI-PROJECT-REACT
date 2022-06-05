@@ -24,36 +24,38 @@ Expose several APIs that do these functions.
 2. get product by name
 
 ## How to Install
-
 ```
 npm install
 ```
-## My Library Backend
-1. bcrypt
-2. cookie-parser
-3. cors
-4. dotenv
-5. express
-6. express-fileupload
-7. gitignore
-8. jsonwebtoken
-9. mysql2
-10. sequelize
 
+## My Library Backend
+```
+bcrypt
+cookie-parser
+cors
+dotenv
+express
+express-fileupload
+gitignore
+jsonwebtoken
+mysql2
+sequelize
+```
 
 ## My Library Frontend
-
-1. autoprefixer
-2. axios
-3. js-cookie
-4. jwt-decode
-5. node-sass
-6. react-bootstrap
-7. react-bootstrap-icons
-8. react-loading
-9. react-router-dom
-10. react-split-pane
-11. web-vitals
+```
+autoprefixer
+axios
+js-cookie
+jwt-decode
+node-sass
+react-bootstrap
+react-bootstrap-icons
+react-loading
+react-router-dom
+react-split-pane
+web-vitals
+```
 
 ## How to Run
 
