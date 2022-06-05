@@ -1,0 +1,61 @@
+.btn {
+    background-color:#019FC4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.btn:hover{
+    background-color:#026176;
+}
+
+.btnShop {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.0rem;
+    line-height: 2;
+    height: 40px;
+    transition: all 200ms linear;
+    border-radius: 22px;
+    width: 100px;
+    letter-spacing: 1px;    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25);
+    outline: 0;
+    text-transform: capitalize;
+    background-color: #A1887F;
+    color:white;
+}
+
+.btnShop:hover{
+    background-color: white;
+    color:#A1887F;
+    border:solid #A1887F;
+}
+
+.btnLogin {
+    width: 81%;
+    height: 45px;
+    background:#db755c;
+    font-weight: bold;
+    border: none;
+    color:white;
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, .25);
+    letter-spacing: 1px; 
+    transition: all 150ms linear;
+}
+
+.btnLogin:hover{
+    background-color: #b95c45;
+    color:white;
+    border:solid #b95c45;
+}

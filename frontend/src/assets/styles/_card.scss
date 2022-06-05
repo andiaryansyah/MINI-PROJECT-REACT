@@ -1,0 +1,20 @@
+@mixin card($colorHeader) {
+    width: 30%;
+    margin: 10% auto;
+    box-shadow: 30px 22px 36px -18px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 30px 22px 36px -18px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 30px 22px 36px -18px rgba(0, 0, 0, 0.54);
+    color: $dibimbingColor;
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .styleHeader {
+        color: $colorHeader;
+        font-size: 40px;
+    }
+}
