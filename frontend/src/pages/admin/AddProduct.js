@@ -37,7 +37,7 @@ const AddProduct = () => {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container mb-5" style={{marginTop:"80px"}}>
       <Form onSubmit={saveProduct} >
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Product Name</Form.Label>

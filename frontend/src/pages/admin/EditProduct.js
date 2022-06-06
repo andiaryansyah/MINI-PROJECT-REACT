@@ -53,7 +53,7 @@ const EditProduct = () => {
   }
 
   return (
-    <div className="container" style={{marginTop:"100px"}}>
+    <div className="container" style={{marginTop:"80px"}}>
       <Form onSubmit={updateProduct} >
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Product Name</Form.Label>
