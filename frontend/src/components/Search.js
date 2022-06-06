@@ -18,20 +18,19 @@ const Search = () => {
     setProducts(response.data);
   };
 
-  const filter = (e) => {
-    const keyword = e.target.value;
-
-    if (keyword !== "") {
+  const filter = () => {
+    if (name !== "") {
       const results = products.filter((product) => {
-        return product.name.toLowerCase().startsWith(keyword.toLowerCase());
+        return product.name.toLowerCase().startsWith(name.toLowerCase());
       });
       setfoundProducts(results);
-    } else {
-        setfoundProducts(products);
-     
-    }
+    } 
+  };
 
-    setName(keyword);
+  const showProducts = () => {
+    if (name !== "") {
+      setfoundProducts(products);
+    }
   };
 
   return (
@@ -46,8 +45,11 @@ const Search = () => {
               aria-label="Search"
               style={{ width: "250px" }}
               value={name}
-              onChange={filter}
+              onChange={(e) => {setName(e.target.value); showProducts()}}
             />
+          </Col>
+          <Col>
+              <Button variant="outline-success" onClick={filter}>Search</Button>
           </Col>
         </Row>
         </div>
@@ -79,6 +81,7 @@ const Search = () => {
             </div>
           ) : (
             <>
+            
               <div className="mt-5">
               <Row xs={1} md={3} className="g-4">
                 {products.map((product) => (
