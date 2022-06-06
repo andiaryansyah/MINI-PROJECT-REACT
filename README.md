@@ -6,6 +6,55 @@ An experiment of a merchant service
 
 Expose several APIs that do these functions.
 
+### Features of Merchant
+```
+post("http://localhost:5000/users")
+```
+for Merchant Register
+
+```
+delete("http://localhost:5000/users/:id")
+```
+for Delete a Merchant
+
+```
+post("http://localhost:5000/login")
+```
+for Merchant Login
+
+```
+get("http://localhost:5000/users")
+```
+for get all account in Dashboard after login
+
+### Features of Product
+```
+get("http://localhost:5000/products")
+```
+for get all Products
+
+```
+get("http://localhost:5000/products/:id")
+```
+for get a Product
+
+```
+post("http://localhost:5000/products")
+```
+Add a new product
+
+```
+patch("http://localhost:5000/products/:id")
+```
+for Update a Product
+
+```
+delete("http://localhost:5000/products/:id")
+```
+for Delete a Product
+
+
+
 ### Merchant
 
 1. Register and delete account
@@ -18,10 +67,6 @@ Expose several APIs that do these functions.
 3. Add a new product
 4. Update product
 5. Delete product
-
-### Catalog Page
-1. get all list of Products
-2. get product by name
 
 ## How to Install
 ```
